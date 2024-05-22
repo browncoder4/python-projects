@@ -1,0 +1,11 @@
+initial_value = 1
+ending_value = 6
+roll = "yes"
+
+while roll == "yes":
+    print("Let's roll the dice")
+    dice_value = initial_value + (ending_value - initial_value) 
+    print("The value is:", dice_value)
+    roll = input("WANNA PLAY AGAIN (yes/no)?: ")
+
+print("Thanks for playing!")
